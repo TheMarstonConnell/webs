@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marston</title>
+    <script src="script.js"></script>
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            background: url("./galaxy.webp") no-repeat;
+            background-size: 100vw 100vh;
+        }
+
+        body {
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            margin-top: 2rem;
+            margin-bottom: 0;
+
+            padding: 3rem;
+            box-sizing: border-box;
+            min-height: 600px;
+
+            border-style: ridge;
+            border-color: aqua;
+            border-width: 1rem;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        #radio {
+            max-width: 400px;
+            border-style: groove;
+            border-color: aquamarine;
+            border-width: 1rem;
+            box-sizing: border-box;
+            padding: 1rem 1rem 0;
+
+        }
+
+        li {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        footer > p {
+            margin-top: 0;
+        }
+
+        .center {
+
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        header >img {
+            margin-bottom: 3rem;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img class="center" src="text.gif">
+    <h1>I'm Marston Connell</h1>
+    <p>This is my site where I share things I find interesting.</p>
+</header>
+<section>
+    <h2>My Radio</h2>
+    <p>Enjoy my radio station that plays a collection of songs I find interesting.</p>
+    <div id="radio" class="center">
+        <iframe src="http://192.168.4.77:4545/public/marstons_radio/embed?theme=light" frameborder="0" allowtransparency="true" style="width: 100%; min-height: 150px; border: 0;"></iframe>
+    </div>
+</section>
+<section>
+    <h2>My Work</h2>
+    <p>This is probably all of my work. I hope you find it interesting.</p>
+    <ul>
+        <li><a href="https://jackalprotocol.com" target="_blank">I co-founded this cloud-storage startup (Jackal)</a></li>
+        <li><a href="https://github.com/TheMarstonConnell" target="_blank">This is my Github</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-loot-mod" target="_blank">I made this Minecraft mod that gives you neat "Random Loot"</a></li>
+        <li><a href="https://twitter.com/MarstonConnell" target="_blank">I post my unfiltered thoughts here (I still call it Twitter btw)</a></li>
+    </ul>
+</section>
+<footer>
+
+
+    <img width="300" src="cats.jpg" alt="cats playing in a computer">
+    <p>This is how I felt making this website.</p>
+ 
+
+
+</footer>
+</body>
+</html>
