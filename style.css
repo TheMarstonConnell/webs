@@ -42,6 +42,14 @@ li {
     margin-bottom: 1rem;
 }
 
+li > ul {
+    margin-top: 0.5rem;
+}
+
+li li {
+    margin-bottom: 0.5rem;
+}
+
 footer {
     margin-top: 2rem;
     text-align: center;
